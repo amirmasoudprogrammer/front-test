@@ -1,0 +1,59 @@
+.Cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 1px 20px;
+    height: 35px;
+    border:1px solid rgba(44, 37, 56, 1);
+}
+
+.Cards span {
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.Cards .Carditems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Cards .Carditems span {
+    color: rgba(237, 36, 129, 1);
+}
+
+.Cards .Carditems .saleFree {
+    color: rgba(72, 193, 232, 1);
+}
+
+.Cards .Carditems img {
+    margin-left: 5px;
+}
+
+.CardsFree {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(45, 29, 81, 1);
+    padding: 0 15px 1px 20px;
+    height: 35px;
+    border: rgba(44, 37, 56, 1);
+
+
+}
+
+.CardsFree span {
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.CardsFree .Carditems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CardsFree .Carditems .saleFree {
+    color: rgba(72, 193, 232, 1);
+}

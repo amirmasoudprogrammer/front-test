@@ -1,0 +1,60 @@
+.Main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 263px;
+    height: 337px;
+    margin: 0 auto;
+    background: linear-gradient(124.18deg, #391A48 0%, #1C1A26 66.6%);
+    border-radius: 20px;
+    border: 1px solid rgba(56, 12, 157, 1)
+}
+
+.Main h2 {
+    color: rgba(223, 225, 249, 1);;
+    font-size: 18px;
+    font-weight: 700;
+}
+.Buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 263px;
+    margin: 10px 10px;
+}
+.Buttons .Cancel{
+    width:73px;
+    height: 40px;
+    top: 285px;
+    left: 16px;
+    padding: 10px 16px 10px 16px;
+    gap: 8px;
+    border-radius: 20px ;
+    background:  rgba(27, 27, 33, 1);
+    color: white;
+    border: 1px solid rgba(56, 12, 157, 1);
+    cursor: pointer;
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.25);
+
+
+}
+.Buttons .Actionbutton{
+    width: 150px;
+    height:40px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 100px;
+    background: linear-gradient(274.17deg, #C41BD3 5.71%, #790FCB 73.06%);
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 8px 0px rgba(148, 19, 206, 1);
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.Buttons .Actionbutton:hover{
+    box-shadow: none;
+}
+.Buttons .Actionbutton a{
+    text-decoration: none;
+    color: white;
+}

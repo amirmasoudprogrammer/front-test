@@ -1,0 +1,251 @@
+body {
+    background-color: #1C1A26;
+}
+
+.CardShort {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card {
+    width: 346px;
+    height: 181px;
+    border-radius: 20px;
+    background: rgba(35, 31, 47, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+    margin-right: 20px;
+    position: fixed;
+    top: 30%;
+    right: 0;
+    left: 50px;
+
+}
+
+.Card .textCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 294px;
+    flex-direction: column;
+
+
+}
+
+.Card .textCard .itemtextCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 294px;
+
+}
+
+.Card .textCard span {
+    color: rgba(234, 234, 234, 1);
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.Card .textCard span strong {
+
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(203, 203, 203, 1);
+
+
+}
+
+.Card .textCard .IMGCard img:nth-child(1) {
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+
+.Card .ItemCard {
+    width: 294px;
+
+}
+
+.Card .ItemCard p {
+    color: rgba(203, 203, 203, 1);
+
+}
+
+.ButtonCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 294px;
+    margin-bottom: 10px;
+}
+
+.ButtonCard button {
+    width: 98px;
+    height: 32px;
+    top: 132px;
+    left: 24px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 20px;
+    border: 1px solid rgba(97, 87, 200, 1);
+    color: rgba(97, 87, 200, 1);
+    background-color: transparent;
+    cursor: pointer;
+
+
+}
+
+.long {
+    width: 337px;
+    height: 775px;
+    background: rgba(35, 31, 47, 1);
+    border-radius: 20px
+
+
+}
+
+.long .textCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.long .textCard .itemtextCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 308px;
+}
+
+.long .textCard .itemtextCard span {
+    color: rgba(234, 234, 234, 1);
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.long .textCard .itemtextCard span strong {
+
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(203, 203, 203, 1);
+
+
+}
+
+.long .textCard .itemtextCard.IMGCard img:nth-child(1) {
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+
+.long .textCard .itemtextCard .ItemCard {
+    width: 294px;
+}
+
+.CardTexts {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Meaning {
+    width: 280px;
+    height: 300px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.07);
+    padding: 20px;
+
+
+}
+
+.Meaning span {
+    color: rgba(198, 197, 208, 1);
+    width: 65px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.Meaning div p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: left;
+    color: rgba(203, 203, 203, 1);
+    width: 261px;
+    height: 260px;
+
+
+}
+
+
+.Synonym {
+    width: 270px;
+    height: 150px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.07);
+    margin-top: 10px;
+}
+
+.Synonym span {
+    width: 70px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    color: rgba(198, 197, 208, 1);
+}
+
+.Synonym div {
+    text-align: left;
+}
+
+.Synonym div p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    width: 270px;
+    line-height: 1.8;
+    height: 120px;
+    color: rgba(203, 203, 203, 1);
+}
+
+.Opposite {
+    width: 270px;
+    height: 90px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.07);
+    margin-top: 10px;
+
+}
+
+.Opposite span {
+    color: rgba(198, 197, 208, 1);
+}
+
+
+
+.Opposite div p {
+    color: rgba(203, 203, 203, 1);
+}
+.long .icons{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-right: 10px;
+    margin-top: 5px;
+}
